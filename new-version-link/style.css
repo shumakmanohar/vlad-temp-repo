@@ -173,7 +173,7 @@
 	justify-content: center;
 }
 .modal-img-container img {
-	width: 85%;
+	width: 100%;
 }
 .hidden {
 	display: none;
@@ -271,5 +271,8 @@
 @media screen and (max-width: 480px) {
 	.modal-header h1 {
 		font-size: 13px;
+	}
+	.modal-img-container img {
+		width: 85%;
 	}
 }

@@ -185,7 +185,7 @@ function populateModal() {
 	var link = document.createElement("link");
 	link.rel = "stylesheet";
 	link.type = "text/css";
-	link.href = "https://ducimor.com/style1.css?1";
+	//link.href = "https://ducimor.com/style1.css?1";
 	link.media = "all";
 	head.appendChild(link);
 	//Load the Modal
@@ -256,7 +256,6 @@ const modalStages = document.querySelectorAll(
 modalCloseBtn.addEventListener("click", closePopUp);
 modalRewardBtn.addEventListener("click", rewardRedirection);
 
-console.log(modalTimeLeftDisplay);
 //Functions
 function popupAd(button) {
 	//Get the attribute from the element or From URL params
