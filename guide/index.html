@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>popup</title>
+		<script src="https://cdn.tailwindcss.com"></script>
+	</head>
+	<body>
+		<div class="container mx-auto py-20">
+			<h1 class="text-5xl font-semibold">Popup AD Guide</h1>
+			<p class="mt-4">This is a temporary File</p>
+
+			<div class="my-10">
+				<div class="inline-flex items-center gap-10">
+					<h2 class="text-2xl">Step 1</h2>
+					<span class="p-2 rounded-lg text-white bg-red-500">Important</span>
+				</div>
+				<p class="my-6 font-bold">
+					Add Styling for the modal Box ,add inside the head Tag
+				</p>
+				<div class="bg-gray-100 flex">
+					<code class="text-xl m-0 text-left p-6">
+						&lt;link rel="stylesheet"
+						href="https://cdn.jsdelivr.net/gh/valtmedia/jsbuttonforblogs/style.css"/&gt;
+					</code>
+				</div>
+			</div>
+			<div class="my-10">
+				<div class="inline-flex items-center gap-10">
+					<h2 class="text-2xl">Step 2</h2>
+					<span class="p-2 rounded-lg text-white bg-red-500">Important</span>
+				</div>
+				<p class="my-6 font-bold">
+					Add the script just before closing of the &lt;/body&gt; tag. <br />
+					Check the console for the message "popupAD Script Loaded" to know if
+					it loaded successfully
+				</p>
+				<div class="bg-gray-100 flex">
+					<code class="text-xl m-0 text-left p-6">
+						&lt;script
+						src="https://cdn.jsdelivr.net/gh/valtmedia/jsbuttonforblogs/popup-min.js"&gt;&lt;/script&gt;
+					</code>
+				</div>
+			</div>
+			<div class="my-10">
+				<div class="inline-flex items-center gap-10">
+					<h2 class="text-2xl">Step 3</h2>
+					<span class="p-2 rounded-lg text-white bg-red-500">Important</span>
+				</div>
+				<p class="my-6 font-bold">
+					Add id "adDivs" to any &lt;div&gt; or &lt;button&gt; tag , you wish to
+					show the popup AD
+				</p>
+				<div class="bg-gray-100 flex">
+					<code class="text-xl m-0 text-left p-6">
+						&lt;div id="adDivs"&gt; My Blog Post &lt;/div&gt;
+					</code>
+				</div>
+			</div>
+			<div class="my-10">
+				<div class="inline-flex items-center gap-10">
+					<h2 class="text-2xl">Step 4</h2>
+					<span class="p-2 rounded-lg text-white bg-red-500">Important</span>
+				</div>
+				<p class="my-6 font-bold">Add modal on your html webpage</p>
+				<div class="bg-gray-100 flex">
+					<code class="text-xl m-0 text-left p-6">
+						&lt;section class=&quot;modal-container hidden&quot;&gt; &lt;div
+						class=&quot;custom-modal&quot;&gt; &lt;!-- Modal Header --&gt;
+						&lt;div class=&quot;modal-header&quot;&gt; &lt;div&gt; &lt;h1
+						class=&quot;modal-h1&quot;&gt;AD MODAL&lt;/h1&gt; &lt;/div&gt;
+						&lt;div class=&quot;modal-cls-container&quot;&gt; &lt;p
+						class=&quot;modal-timeLeft&quot;&gt;&lt;/p&gt; &lt;button
+						class=&quot;modal-close-btn&quot;&gt; &lt;svg
+						xmlns=&quot;http://www.w3.org/2000/svg&quot; fill=&quot;none&quot;
+						viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;1.5&quot;
+						stroke=&quot;currentColor&quot; class=&quot;w-6 h-6&quot; &gt;
+						&lt;path stroke-linecap=&quot;round&quot;
+						stroke-linejoin=&quot;round&quot; d=&quot;M6 18L18 6M6 6l12 12&quot;
+						/&gt; &lt;/svg&gt; &lt;/button&gt; &lt;/div&gt; &lt;/div&gt; &lt;!--
+						Modal Video --&gt; &lt;div class=&quot;modal-vid-wrapper&quot;&gt;
+						&lt;iframe src=&quot;https://www.youtube.com/embed/fiwViROuRxc&quot;
+						frameborder=&quot;0&quot; &gt;&lt;/iframe&gt; &lt;/div&gt; &lt;!--
+						Modal Button --&gt; &lt;div
+						class=&quot;modal-reward-btn-container&quot;&gt; &lt;button
+						class=&quot;modal-reward-btn&quot;&gt;Earn Reward&lt;/button&gt;
+						&lt;/div&gt; &lt;/div&gt; &lt;/section&gt;
+					</code>
+				</div>
+			</div>
+			<div class="my-10">
+				<div class="inline-flex items-center gap-10">
+					<h2 class="text-2xl">Parameter HTML CODE</h2>
+					<span class="p-2 rounded-lg text-white bg-gray-500">Parameters</span>
+				</div>
+				<p class="my-6 font-bold">
+					Add id "adDivs" to any &lt;div&gt; or &lt;button&gt; tag , you wish to
+					show the popup AD
+				</p>
+				<div class="bg-gray-100 flex">
+					<code class="text-xl m-0 text-left p-6">
+						&lt;div <br />
+						id="adDivs" <br />
+						data-h1="test"<br />
+						data-btn-txt="test-btn"<br />
+						data-timer="10" <br />
+						data-adLink="https://www.google.com/"<br />
+						data-mobilead="https://www.google.com/"<br />
+						data-desktopad="https://www.google.com/" <br />
+						data-originalLink="https://www.google.com/"&gt; My Blog Post
+						&lt;/div&gt;
+					</code>
+				</div>
+			</div>
+			<div class="my-10">
+				<div class="inline-flex items-center gap-10">
+					<h2 class="text-2xl">Parameter URL</h2>
+					<span class="p-2 rounded-lg text-white bg-gray-500">Parameters</span>
+				</div>
+				<p class="my-6 font-bold">
+					LocalStorage clear is only available in url parameter
+				</p>
+				<div class="bg-gray-100 flex">
+					<div class="text-xl m-0 text-left p-6 flex flex-col gap-4">
+						<p>h1 : "for the title"</p>
+						<p>btn : "for the button title"</p>
+						<p>timer : "timer to run [pass in seconds]"</p>
+						<p>adLink : "pass in the redirectionLink"</p>
+						<p>originallink : "pass in the correct URL"</p>
+						<p>mobilead: "pass in the redirectionLink for mobile Users"</p>
+						<p>desktopad : "pass in the redirectionLink for desktop Users"</p>
+						<p>local: "pass in the value "clear" to clear the localStorage "</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
